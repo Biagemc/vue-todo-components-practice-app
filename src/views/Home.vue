@@ -46,7 +46,7 @@ export default {
       .then(response => {
         this.todos = response.data;
       })
-      .ctach(error => console.log(error));
+      .catch(error => console.log(error));
   },
 };
 </script>
